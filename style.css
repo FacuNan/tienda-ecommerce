@@ -1,0 +1,63 @@
+:root {
+    --bg-color: #ebebeb;
+    --input-placeholder: #d4d4d4;
+    --input-bg: #efefef;
+    --texto-destaque: #ffff;
+    --azul-destaque: #2a7ae4;
+    --bg-contato: #eaf2fd;
+    font-family: "Releway", sans-serif;
+}
+
+
+.app{
+    display:grid;
+    grid-template-areas:
+    "encabezado"
+    "contenido"
+    "rodapie";
+    grid-template-columns: auto;
+    grid-template-rows: 100px auto 102px;
+    
+}
+.encabezado {
+    padding: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: var(--bg-color);
+    grid-area: encabezado;
+}
+.contenido{
+    grid-area: contenido ;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    height: 29.17px;
+    width: 40.02px;
+}
+
+.logo-azul {
+    margin-left: 10px;
+    color: blue;
+}
+
+.logo input {
+    width: 393px;
+    height: 40px;
+    border-radius: 30px;
+    margin-left: 10%;
+}
+
+.login button {
+    background-color: var(--azul-destaque);
+    border:none;
+    width: 182px;
+    height: 51px;
+    color: white;
+}
+

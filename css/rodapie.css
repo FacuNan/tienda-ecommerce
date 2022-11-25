@@ -1,0 +1,8 @@
+.rodapie{
+    height: 102px;
+    grid-area: rodapie;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}

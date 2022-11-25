@@ -1,0 +1,88 @@
+.populares {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    background-color: var(--bg-color);
+   
+}
+
+.populares h1{
+    font-weight: bold;
+    font-size: 20px;
+    font-family: 'Raleway';
+}
+
+.Star-wars {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding:20px 0px;
+}
+
+.populares__img {
+    width: 150px;
+    height: 148px;
+    margin: 5px 0px 10px;
+}
+
+.star-wars {
+    margin: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    gap: 10px;
+}
+
+.star-wars p {
+    font-family: 'Raleway';
+}
+
+.productos {
+    font-weight: 500;
+    font-size: 14px;
+    font-style: normal;
+  
+}
+
+strong {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+}
+
+.ver-mas {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    color: var(--azul-destaque)
+}
+
+.consolas {
+    display: flex;
+    justify-content: center;
+    padding: 20px 0px;
+}
+
+.consola {
+    margin: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    gap: 10px;
+}
+
+.variados{
+    display:flex;
+    justify-content: center;
+    padding: 20px 0px;
+    
+}
+
+.variado{
+    margin: 15px 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    gap: 10px;
+}
