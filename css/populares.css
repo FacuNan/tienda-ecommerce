@@ -26,15 +26,16 @@
     margin: 5px 0px 10px;
 }
 
-.star-wars {
+.articulos{
     margin: 5px;
     display: flex;
     flex-direction: column;
     justify-content: end;
     gap: 10px;
+    display:inherit;
 }
 
-.star-wars p {
+.articulos p {
     font-family: 'Raleway';
 }
 
@@ -64,13 +65,6 @@ strong {
     padding: 20px 0px;
 }
 
-.consola {
-    margin: 5px;
-    display: flex;
-    flex-direction: column;
-    justify-content: end;
-    gap: 10px;
-}
 
 .variados{
     display:flex;

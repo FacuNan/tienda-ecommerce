@@ -1,0 +1,14 @@
+.input-error{
+    display:flex;
+    flex-direction: column;
+    gap:5px;
+}
+
+.input-error input{
+border: red solid 1px;
+}
+
+.mensajeError{
+    color: red;
+}
+

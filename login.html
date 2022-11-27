@@ -1,4 +1,5 @@
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+<link rel="stylesheet" href="./css/validaciones.css">
 <section class="vh-100">
     <div class="container-fluid h-custom">
       <div class="row d-flex justify-content-center align-items-center h-100">
@@ -30,15 +31,18 @@
             <!-- Email input -->
             <div class="form-outline mb-4">
               <input type="email" id="form3Example3" class="form-control form-control-lg"
-                placeholder="Enter a valid email address" />
+                placeholder="Enter a valid email address"  pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" title ="Ingrese un formato valido "required data-tipo="email"/>
               <label class="form-label" for="form3Example3">Email address</label>
+              <span class="mensajeError"></span>
             </div>
   
             <!-- Password input -->
             <div class="form-outline mb-3">
               <input type="password" id="form3Example4" class="form-control form-control-lg"
-                placeholder="Enter password" />
+                placeholder="Enter password" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}"   data-tipo="password" required/>
+               
               <label class="form-label" for="form3Example4">Password</label>
+              <span class="mensajeError"></span>
             </div>
   
             <div class="d-flex justify-content-between align-items-center">
@@ -89,3 +93,5 @@
       <!-- Right -->
     </div>
   </section>
+
+  <script src="./Validaciones/validacionesLogin/appLogin.js" type="module"></script>

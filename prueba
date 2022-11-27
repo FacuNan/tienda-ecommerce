@@ -1,0 +1,17 @@
+    document.addEventListener("keyup", e => {
+
+        if (e.target.matches('#buscador')) {
+            if (e.key === 'Escape') e.target.value = '';
+            document.querySelectorAll('.productos').forEach(elemento => {
+               
+                elemento.textContent.toLowerCase().includes(e.target.value.toLowerCase())
+                
+                    ? elemento.parentElement.classList.remove("filtro")
+                    :elemento.parentElement.classList.add("filtro")
+                    
+                    ?elemento.parentElement.classList.add('star-wars')
+                    :elemento.parentElement.classList.remove('star-wars')
+            })
+
+        }
+    })
