@@ -13,6 +13,7 @@
     <link rel="stylesheet" href="./css/contactos.css">
     <link rel="stylesheet" href="./css/rodapie.css">
     <link rel="stylesheet" href="./css/validaciones.css">
+    <link rel="stylesheet" href="./css/modal.css">
 
 </head>
 
@@ -40,20 +41,31 @@
 
 
         <section class="populares">
+            <div class="boton-titulo">
+                <h1>Star Wars</h1>
+                <a href="http://">Ver mas</a>
+            </div>
+            <div class="Star-wars" data-juegos></div>
 
-            <div class="Star-wars" data-juegos>
-
-        
             </div>
 
+            <div class="boton-titulo">
+                <h1>Consolas</h1>
+                <a href="http://">Ver mas</a>
+            </div>
             <div class="consolas" id="consolas" data-consola>
 
+            </div>
+
+            <div class="boton-titulo">
+                <h1>Variados</h1>
+                <a href="http://">Ver mas</a>
             </div>
 
             <div class="variados">
 
                 <article class="variado">
-                    <h1>variados</h1>
+
                     <img class="populares__img" src="./assets/atari.png">
                     <p class="productos">Producto XYZ</p>
                     <p><strong>$60,00</strong>
@@ -120,17 +132,30 @@
                 <form action="" class="contactos__formulario">
                     <h3>Hable con nosotros</h3>
                     <div>
-                        <input class="contacto"type="text" placeholder="nombre" required pattern="[A-Z, a-z]{4,40}" data-tipo="nombre">
+                        <input class="contacto" type="text" placeholder="nombre" required pattern="[A-Z, a-z]{4,40}"
+                            data-tipo="nombre">
                         <span class="mensajeError"></span>
                     </div>
 
                     <div>
-                        <input class="contacto"  name="mensaje" id="mensaje" cols="30" rows="10" placeholder="Mensaje" required
-                            data-tipo="mensaje" pattern="[a-z]{4,120}"></input>
+                        <input class="contacto" name="mensaje" id="mensaje" cols="30" rows="10" placeholder="Mensaje"
+                            required data-tipo="mensaje" pattern="[a-z]{4,120}"></input>
                         <span class="mensajeError"></span>
                     </div>
                     <button type="submit">Enviar Mensaje</button>
                 </form>
+            </div>
+        </section>
+        <section class="modal-container">
+            <div class="modal modal-close">
+                <p class="close">X</p>
+                <img src="./assets/canecasw.png" alt="">
+                <h2>canecasw</h2>
+                <p>60,00</p>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aut fuga, beatae neque fugiat voluptatem
+                    quisquam quod unde eligendi? Amet non ex autem dignissimos voluptas nesciunt eum alias, quasi
+                    officia
+                    cumque?</p>
             </div>
         </section>
     </main>
@@ -141,6 +166,7 @@
     <script src="./Validaciones/app.js" type="module"></script>
     <script src="./controllers/juegosControler.js" type="module"></script>
     <script src="./controllers/consolasController/consolasController.js " type="module"></script>
+
 </body>
 
 </html>

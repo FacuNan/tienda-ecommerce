@@ -12,6 +12,14 @@
     font-family: 'Raleway';
 }
 
+.boton-titulo{
+    width:95%;
+    padding:20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
 .Star-wars {
     position: relative;
     display: flex;

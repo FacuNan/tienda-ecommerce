@@ -6,7 +6,6 @@ const infoConsolas = (id, img, nombre, precio, link) => {
     articulo.classList.add('articulos');
 
     const contenido = `
-    <h1>Consolas</h1>
     <img class="populares__img" src="${img}">
     <p class="productos">${nombre}</p>
     <p><strong>${precio}</strong>
