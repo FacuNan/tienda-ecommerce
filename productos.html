@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Alura Geek</title>
+    <title>Todos los productos</title>
     <link rel="stylesheet" href="./css/reset.css">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="css/destaque.css">
@@ -14,10 +14,11 @@
     <link rel="stylesheet" href="./css/rodapie.css">
     <link rel="stylesheet" href="./css/validaciones.css">
     <link rel="stylesheet" href="./css/modal.css">
-
+    <link rel="stylesheet" href="./css/productos.css">
+    <link rel="stylesheet" href="./css/modalAgregar.css">
 </head>
 
-<body class="app">
+<body>
     <header class="encabezado">
         <div class="logo">
             <img src="./assets/logo.png" alt="">
@@ -41,30 +42,77 @@
 
 
         <section class="populares">
+           
             <div class="boton-titulo">
-                <h1>Star Wars</h1>
-                <a href="http://127.0.0.1:5500/productos.html">Ver mas</a>
+                <h1>Todos los productos</h1>
+                <button class="agregar" data-agregar>Agregar mas</button>
             </div>
             <div class="Star-wars" data-juegos></div>
 
             </div>
 
             <div class="boton-titulo">
-                <h1>Consolas</h1>
-                <a href="http://127.0.0.1:5500/productos.html">Ver mas</a>
+             
             </div>
             <div class="consolas" id="consolas" data-consola>
 
             </div>
 
             <div class="boton-titulo">
-                <h1>Variados</h1>
-                <a href="http://127.0.0.1:5500/productos.html">Ver mas</a>
+               
+             
             </div>
 
-            <div class="variados" data-variados>
+            <div class="variados">
 
-              
+                <article class="variado">
+
+                    <img class="populares__img" src="./assets/atari.png">
+                    <p class="productos">Producto XYZ</p>
+                    <p><strong>$60,00</strong>
+                    </p>
+                    <a href="" class="ver-mas">Ver Producto</a>
+                </article>
+
+                <article class="variado">
+                    <img class="populares__img" src="./assets/camisasnes.png">
+                    <p class="productos">Producto XYZ</p>
+                    <p><strong>$60,00</strong>
+                    </p>
+                    <a href="" class="ver-mas">Ver Producto</a>
+                </article>
+
+                <article class="variado">
+                    <img class="populares__img" src="./assets/sonic.png">
+                    <p class="productos">Producto XYZ</p>
+                    <p><strong>$60,00</strong>
+                    </p>
+                    <a href="" class="ver-mas">Ver Producto</a>
+                </article>
+
+                <article class="variado">
+                    <img class="populares__img" src="./assets/relogio.png">
+                    <p class="productos">Producto XYZ</p>
+                    <p><strong>$60,00</strong>
+                    </p>
+                    <a href="" class="ver-mas">Ver Producto</a>
+                </article>
+
+                <article class="variado">
+                    <img class="populares__img" src="./assets/vr.png">
+                    <p class="productos">Producto XYZ</p>
+                    <p><strong>$60,00</strong>
+                    </p>
+                    <a href="" class="ver-mas">Ver Producto</a>
+                </article>
+
+                <article class="variado">
+                    <img class="populares__img" src="./assets/pikachu.png">
+                    <p class="productos">Producto XYZ</p>
+                    <p><strong>$60,00</strong>
+                    </p>
+                    <a href="" class="ver-mas">Ver Producto</a>
+                </article>
             </div>
 
             </div>
@@ -101,7 +149,28 @@
         </section>
         <section class="modal-container">
             <div class="modal modal-close">
+
+            </div>
+        </section>
+
+        <section class="modal-agregar" data-form >
+
+            <div class="modalProductos modal-clos" data-modalA>
                
+                <form action=""  class="formulario">
+                    <p class="clos" data-cerrar>X</p>
+                <label for="img">Imagen</label>
+                <input type="text" id="img">
+
+                <label for="nombre">Nombre</label>
+                <input type="text" id="nombre">
+
+                <label for="precio">Precio</label>
+                <input type="text" id="precio">
+
+                <label for="descripcion">Descripcion</label>
+                <input type="text" id="descripcion">
+            </form>
             </div>
         </section>
     </main>
@@ -112,7 +181,8 @@
     <script src="./Validaciones/app.js" type="module"></script>
     <script src="./controllers/juegosControler.js" type="module"></script>
     <script src="./controllers/consolasController/consolasController.js " type="module"></script>
-    <script src="./controllers/variados/variadosController.js" type="module"></script>
+    <script src="./controllers/modal.js" ></script>
+
 </body>
 
 </html>
