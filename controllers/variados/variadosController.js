@@ -1,4 +1,5 @@
-import { juegosSevice } from "../service/service.js";
+import { variadosService } from "../../service/variadosService.js";
+
 //constantes generales para los modales//
 let modal = document.querySelectorAll('.modal')[0];
 let modalC = document.querySelectorAll('.modal-container')[0];
@@ -43,22 +44,21 @@ const agregarContenido = (id, img, nombre, precio, link) => {
 }
 
 
+const agregarVariado = (id, img, nombre, precio, link) => {
+
+    const articulo = document.createElement('article');
+    articulo.classList.add('variados')
 
 
-
-export const obtenerJuegos = (id, img, nombre, precio, link) => {
-    const articulo = document.createElement('article')
-
-    articulo.classList.add('articulos')
     const contenido = `
-    
-    <img class="populares__img" src="${img}" alt="">
-    <p class="productos">${nombre}</p>
-    <p><strong>${precio}</strong>
-    </p>
-    <a href="#" class="ver-mas act" id="${id}">Ver Producto</a>
-`
+    <article class="variado">
 
+    <img class="populares__img" src="${img}">
+        <p class="productos">${nombre}</p>
+        <p><strong>${precio}</strong>
+        </p>
+        <a href="" class="ver-mas act" id="${id}">Ver Producto</a>
+    </article>`
 
     articulo.innerHTML = contenido
 
@@ -67,26 +67,10 @@ export const obtenerJuegos = (id, img, nombre, precio, link) => {
     nombres.forEach((btn) => {
         btn.addEventListener('click', () => {
             const ides = btn.id
-            juegosSevice.detallesJuego(ides).then(({ id, img, nombre, precio, link }) => {
+            variadosService.detallesVariados(ides).then(({ id, img, nombre, precio, link }) => {
                 agregarContenido(id, img, nombre, precio, link)
             })
         })
-    })
-
-
-    //funcionalidad del boton de buscar//
-    const buscador = document.querySelector('.buscador')
-    buscador.addEventListener("keyup", e => {
-        const respuesta = e.target.value
-
-        if (e.key) {
-            document.querySelectorAll('.productos').forEach(elemento => {
-                elemento.textContent.toLowerCase().includes(respuesta.toLowerCase())
-                    ? elemento.parentElement.style.display = 'block'
-                    : elemento.parentElement.style.display = 'none'
-            })
-
-        }
     })
 
 
@@ -101,21 +85,15 @@ export const obtenerJuegos = (id, img, nombre, precio, link) => {
         })
     })
 
-   
     return articulo
-
 }
 
 
-const juegos = document.querySelector('[data-juegos]')
+variadosService.listaVariados().then((data) => {
+    data.forEach(({ id, img, nombre, precio, link }) => {
+        const informacion = agregarVariado(id, img, nombre, precio, link);
+        const divVariados = document.querySelector('[data-variados]');
 
-juegosSevice.listaJuegos().then((starwars) => {
-    starwars.forEach(({ id, img, nombre, precio, link }) => {
-        const agregarJuego = obtenerJuegos(id, img, nombre, precio, link)
-
-        juegos.appendChild(agregarJuego)
-
+        divVariados.appendChild(informacion)
     })
 })
-
-

@@ -5,21 +5,21 @@
       "img": "./assets/canecasw.png",
       "nombre": "Producto XYZ",
       "precio":"60,00",
-      "link":"url"
+      "link":"Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quis dicta mollitia quibusdam libero perspiciatis beatae quidem unde voluptatem totam, accusantium ipsum saepe nisi ipsa soluta atque deleniti ut facilis corrupti."
     },
     {
       "id": 2,
       "img": "./assets/legosw.png",
       "nombre":"Producto XYZ",
       "precio":"60,00",
-      "link":"url"
+      "link":"Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quis dicta mollitia quibusdam libero perspiciatis beatae quidem unde voluptatem totam, accusantium ipsum saepe nisi ipsa soluta atque deleniti ut facilis corrupti."
     },
     {
       "id": 3,
       "img": "./assets/yoda.png",
       "nombre":"Yoda",
       "precio":"60,00",
-      "link":"url"
+      "link":"Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quis dicta mollitia quibusdam libero perspiciatis beatae quidem unde voluptatem totam, accusantium ipsum saepe nisi ipsa soluta atque deleniti ut facilis corrupti."
     },
 
     {
@@ -27,7 +27,7 @@
       "img": "./assets/babyyoda.png",
       "nombre":"Baby Yoda",
       "precio":"60,00",
-      "link":"url"
+      "link":"Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quis dicta mollitia quibusdam libero perspiciatis beatae quidem unde voluptatem totam, accusantium ipsum saepe nisi ipsa soluta atque deleniti ut facilis corrupti."
     },
 
     {
@@ -35,7 +35,7 @@
       "img": "./assets/stormtropper.png",
       "nombre":"Storm Tropper",
       "precio":"60,00",
-      "link":"url"
+      "link":"Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quis dicta mollitia quibusdam libero perspiciatis beatae quidem unde voluptatem totam, accusantium ipsum saepe nisi ipsa soluta atque deleniti ut facilis corrupti."
     },
 
     {
@@ -43,7 +43,7 @@
       "img": "./assets/mandalorian.png",
       "nombre":"Mandalorian",
       "precio":"60,00",
-      "link":"url"
+      "link":"Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quis dicta mollitia quibusdam libero perspiciatis beatae quidem unde voluptatem totam, accusantium ipsum saepe nisi ipsa soluta atque deleniti ut facilis corrupti."
     }
   ],
   "consolas": [
