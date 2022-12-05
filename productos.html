@@ -42,7 +42,7 @@
 
 
         <section class="populares">
-           
+
             <div class="boton-titulo">
                 <h1>Todos los productos</h1>
                 <button class="agregar" data-agregar>Agregar mas</button>
@@ -52,15 +52,15 @@
             </div>
 
             <div class="boton-titulo">
-             
+
             </div>
             <div class="consolas" id="consolas" data-consola>
 
             </div>
 
             <div class="boton-titulo">
-               
-             
+
+
             </div>
 
             <div class="variados">
@@ -153,24 +153,39 @@
             </div>
         </section>
 
-        <section class="modal-agregar" data-form >
+        <section class="modal-agregar" data-form>
 
             <div class="modalProductos modal-clos" data-modalA>
-               
-                <form action=""  class="formulario">
+
+                <form action="" class="formulario">
                     <p class="clos" data-cerrar>X</p>
-                <label for="img">Imagen</label>
-                <input type="text" id="img">
+                    <label for="img">Imagen</label>
+                    <input type="text" id="img" data-imagen> 
 
-                <label for="nombre">Nombre</label>
-                <input type="text" id="nombre">
+                    <label for="nombre">Nombre</label>
+                    <input type="text" id="nombre" data-nombre>
 
-                <label for="precio">Precio</label>
-                <input type="text" id="precio">
+                    <label for="precio">Precio</label>
+                    <input type="text" id="precio" data-precio>
 
-                <label for="descripcion">Descripcion</label>
-                <input type="text" id="descripcion">
-            </form>
+                    <label for="descripcion">Descripcion</label>
+                    <input type="text" id="descripcion" data-descripcion>
+                    <div class="productos">
+                        <fieldset>
+                            <legend>¿Que producto desea agregar?</legend>
+                            <label for="juego">Juegos</label>
+                            <input type="radio" name="juegos" id="juego" >
+
+                            <label for="consola">Consolas</label>
+                            <input type="radio" name="juegos" id="consola" >
+
+                            <label for="variado">variados</label>
+                            <input type="radio" name="juegos" id="variado">
+                        </fieldset>
+
+                    </div>
+                    <button type="submit">Enviar</button>
+                </form>
             </div>
         </section>
     </main>
@@ -178,10 +193,11 @@
         <h1>Desarrollado por Facundo Comercio</h1>
         <h1>2022</h1>
     </footer>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/uuid/8.3.2/uuid.min.js" referrerpolicy="no-referrer"></script>
     <script src="./Validaciones/app.js" type="module"></script>
     <script src="./controllers/juegosControler.js" type="module"></script>
     <script src="./controllers/consolasController/consolasController.js " type="module"></script>
-    <script src="./controllers/modal.js" ></script>
+    <script src="./controllers/modal.js" type="module"></script>
 
 </body>
 

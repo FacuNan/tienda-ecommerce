@@ -26,6 +26,7 @@
     justify-content: center;
     align-items: center;
     padding:20px 0px;
+    flex-wrap: wrap;
 }
 
 .populares__img {
@@ -51,6 +52,7 @@
     font-weight: 500;
     font-size: 14px;
     font-style: normal;
+    
   
 }
 
@@ -71,6 +73,7 @@ strong {
     display: flex;
     justify-content: center;
     padding: 20px 0px;
+    flex-wrap: wrap;
 }
 
 
@@ -78,7 +81,7 @@ strong {
     display:flex;
     justify-content: center;
     padding: 20px 0px;
-    
+    flex-wrap: wrap;
 }
 
 .variado{

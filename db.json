@@ -4,141 +4,132 @@
       "id": 1,
       "img": "./assets/canecasw.png",
       "nombre": "Producto XYZ",
-      "precio":"60,00",
-      "link":"Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quis dicta mollitia quibusdam libero perspiciatis beatae quidem unde voluptatem totam, accusantium ipsum saepe nisi ipsa soluta atque deleniti ut facilis corrupti."
+      "precio": "60,00",
+      "link": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quis dicta mollitia quibusdam libero perspiciatis beatae quidem unde voluptatem totam, accusantium ipsum saepe nisi ipsa soluta atque deleniti ut facilis corrupti."
     },
     {
       "id": 2,
       "img": "./assets/legosw.png",
-      "nombre":"Producto XYZ",
-      "precio":"60,00",
-      "link":"Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quis dicta mollitia quibusdam libero perspiciatis beatae quidem unde voluptatem totam, accusantium ipsum saepe nisi ipsa soluta atque deleniti ut facilis corrupti."
+      "nombre": "Producto XYZ",
+      "precio": "60,00",
+      "link": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quis dicta mollitia quibusdam libero perspiciatis beatae quidem unde voluptatem totam, accusantium ipsum saepe nisi ipsa soluta atque deleniti ut facilis corrupti."
     },
     {
       "id": 3,
       "img": "./assets/yoda.png",
-      "nombre":"Yoda",
-      "precio":"60,00",
-      "link":"Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quis dicta mollitia quibusdam libero perspiciatis beatae quidem unde voluptatem totam, accusantium ipsum saepe nisi ipsa soluta atque deleniti ut facilis corrupti."
+      "nombre": "Yoda",
+      "precio": "60,00",
+      "link": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quis dicta mollitia quibusdam libero perspiciatis beatae quidem unde voluptatem totam, accusantium ipsum saepe nisi ipsa soluta atque deleniti ut facilis corrupti."
     },
-
     {
       "id": 4,
       "img": "./assets/babyyoda.png",
-      "nombre":"Baby Yoda",
-      "precio":"60,00",
-      "link":"Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quis dicta mollitia quibusdam libero perspiciatis beatae quidem unde voluptatem totam, accusantium ipsum saepe nisi ipsa soluta atque deleniti ut facilis corrupti."
+      "nombre": "Baby Yoda",
+      "precio": "60,00",
+      "link": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quis dicta mollitia quibusdam libero perspiciatis beatae quidem unde voluptatem totam, accusantium ipsum saepe nisi ipsa soluta atque deleniti ut facilis corrupti."
     },
-
     {
       "id": 5,
       "img": "./assets/stormtropper.png",
-      "nombre":"Storm Tropper",
-      "precio":"60,00",
-      "link":"Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quis dicta mollitia quibusdam libero perspiciatis beatae quidem unde voluptatem totam, accusantium ipsum saepe nisi ipsa soluta atque deleniti ut facilis corrupti."
+      "nombre": "Storm Tropper",
+      "precio": "60,00",
+      "link": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quis dicta mollitia quibusdam libero perspiciatis beatae quidem unde voluptatem totam, accusantium ipsum saepe nisi ipsa soluta atque deleniti ut facilis corrupti."
     },
-
     {
       "id": 6,
       "img": "./assets/mandalorian.png",
-      "nombre":"Mandalorian",
-      "precio":"60,00",
-      "link":"Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quis dicta mollitia quibusdam libero perspiciatis beatae quidem unde voluptatem totam, accusantium ipsum saepe nisi ipsa soluta atque deleniti ut facilis corrupti."
+      "nombre": "Mandalorian",
+      "precio": "60,00",
+      "link": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quis dicta mollitia quibusdam libero perspiciatis beatae quidem unde voluptatem totam, accusantium ipsum saepe nisi ipsa soluta atque deleniti ut facilis corrupti."
     }
+   
   ],
   "consolas": [
     {
       "id": 1,
       "img": "./assets/consolas-1.png",
       "nombre": "Consola 1",
-      "precio":"60,00",
-      "link":"url"
+      "precio": "60,00",
+      "link": "url"
     },
     {
       "id": 2,
       "img": "./assets/consolas-2.png",
       "nombre": "Consola 2",
-      "precio":"60,00",
-      "link":"url"
+      "precio": "60,00",
+      "link": "url"
     },
     {
       "id": 3,
       "img": "./assets/consolas-3.png",
       "nombre": "Consola 3",
-      "precio":"60,00",
-      "link":"url"
+      "precio": "60,00",
+      "link": "url"
     },
     {
       "id": 4,
       "img": "./assets/consolas-4.png",
       "nombre": "consola 4",
-      "precio":"60,00",
-      "link":"url"
+      "precio": "60,00",
+      "link": "url"
     },
-
     {
       "id": 5,
       "img": "./assets/consolas-5.png",
       "nombre": "Consola 5",
-      "precio":"60,00",
-      "link":"url"
+      "precio": "60,00",
+      "link": "url"
     },
     {
       "id": 6,
       "img": "./assets/consolas-6.png",
       "nombre": "Consola 6",
-      "precio":"60,00",
-      "link":"url"
+      "precio": "60,00",
+      "link": "url"
     }
   ],
-  
   "variados": [
     {
       "id": 1,
       "img": "./assets/atari.png",
       "nombre": "Producto XYZ",
-      "precio":"60,00",
-      "link":"url"
+      "precio": "60,00",
+      "link": "url"
     },
-
     {
       "id": 2,
       "img": "./assets/camisasnes.png",
       "nombre": "Producto XYZ",
-      "precio":"60,00",
-      "link":"url"
+      "precio": "60,00",
+      "link": "url"
     },
-
     {
       "id": 3,
       "img": "./assets/sonic.png",
       "nombre": "Producto XYZ",
-      "precio":"60,00",
-      "link":"url"
+      "precio": "60,00",
+      "link": "url"
     },
-
     {
       "id": 4,
       "img": "./assets/relogio.png",
       "nombre": "Producto XYZ",
-      "precio":"60,00",
-      "link":"url"
+      "precio": "60,00",
+      "link": "url"
     },
-
     {
       "id": 5,
       "img": "./assets/vr.png",
       "nombre": "Producto XYZ",
-      "precio":"60,00",
-      "link":"url"
+      "precio": "60,00",
+      "link": "url"
     },
-
     {
       "id": 6,
       "img": "./assets/pikachu.png",
       "nombre": "Producto XYZ",
-      "precio":"60,00",
-      "link":"url"
+      "precio": "60,00",
+      "link": "url"
     }
   ]
 }

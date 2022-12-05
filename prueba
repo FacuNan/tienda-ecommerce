@@ -15,3 +15,20 @@
 
         }
     })
+
+
+
+    if (inputJuego.checked) {
+        juegosSevice.agregarJuego(img, nombre, precio, link).then(() => {
+            window.location.href = 'http://127.0.0.1:5500/index.html'
+        })
+
+    }else if(inputConsolas.checked){
+      consolasService.agregarConsolas(img, nombre, precio, link).then(() => {
+        window.location.href = 'http://127.0.0.1:5500/index.html'
+    })
+    }else{
+        variadosService.agregarVariado(img, nombre, precio, link).then(()=>{
+            window.location.href = 'http://127.0.0.1:5500/index.html'
+        })
+    }

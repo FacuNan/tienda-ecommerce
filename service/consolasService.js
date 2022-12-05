@@ -2,9 +2,11 @@
 const listaConsolas = () => {
     return fetch(' http://localhost:3000/consolas').then((respuesta) => respuesta.json())
 }
-const agregarConsolas = (id, img, nombre, precio, link) => {
+
+
+const agregarConsolas = (img, nombre, precio, link) => {
     return fetch('http://localhost:3000/consolas', {
-        method: ' POST',
+        method: 'POST',
         headers: {
             'Content-Type': 'application/json'
         },
